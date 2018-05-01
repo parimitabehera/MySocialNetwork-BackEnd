@@ -288,7 +288,7 @@ app.get('/friends/:userId',(req,res)=>{
 });
 })
 
-mongoose.connect('mongodb://ssuser:coolss@ds135777.mlab.com:35777/mysocialdb',(err)=>{
+mongoose.connect('mongodbConnectionString',(err)=>{
     console.log('connected to mongo');
 })
 
